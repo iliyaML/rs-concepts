@@ -5,8 +5,11 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+# 01 - Hello World
 [[bin]]
 name = "hello-world"
 path = "src/hello-world.rs"
 
-[dependencies]
+[[bin]]
+name = "variables"
+path = "src/variables.rs"
