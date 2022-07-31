@@ -13,4 +13,9 @@ path = "src/hello-world.rs"
 name = "stdio"
 path = "src/stdio.rs"
 
+[[bin]]
+name = "guessing-game"
+path = "src/guessing-game.rs"
+
 [dependencies]
+rand = "0.8.5"
