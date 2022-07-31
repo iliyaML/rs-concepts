@@ -4,18 +4,19 @@ fn main() {
     // scalar types
     let status: bool = true;
 
+    // numeric types
     let num: i32 = 32; // integers default to i32
     let num: f64 = 32.0; // floating numbers default to f64
-    let usize_example: usize = 1;
+    let usize_example: usize = 1; // used for indexing
     let isize_example: isize = -1;
 
-    // character
+    // character (must use single quotes)
     let c = 'z';
     let z: char = 'Z';
     let cat = '😻';
     println!("{c} {z} {cat}");
 
-    // str slice and String
+    // str slice (&str) and String
     let str_example: &str = "Hello world";
     let string_example: String = String::from("Hello world");
 

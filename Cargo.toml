@@ -5,15 +5,12 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-# 01 - Hello World
 [[bin]]
 name = "hello-world"
 path = "src/hello-world.rs"
 
 [[bin]]
-name = "variables"
-path = "src/variables.rs"
+name = "stdio"
+path = "src/stdio.rs"
 
-[[bin]]
-name = "data-types"
-path = "src/data-types.rs"
+[dependencies]
