@@ -17,5 +17,17 @@ path = "src/stdio.rs"
 name = "guessing-game"
 path = "src/guessing-game.rs"
 
+[[bin]]
+name = "variables"
+path = "src/variables.rs"
+
+[[bin]]
+name = "data-types"
+path = "src/data-types.rs"
+
+[[bin]]
+name = "arrays"
+path = "src/arrays.rs"
+
 [dependencies]
 rand = "0.8.5"
