@@ -5,6 +5,11 @@ fn main() {
     let x: i32 = 1;
     println!("The value of x is {x}");
 
+    let num;
+    // variables must be assigned something before they are used
+    num = 10;
+    println!("This is the num: {num}");
+
     // shadowing
     // mark x as mutable
     let mut x: i32 = 5;
@@ -18,10 +23,10 @@ fn main() {
     println!("THREE_HOURS_IN_SECONDS: {THREE_HOURS_IN_SECONDS}");
 
     // even more shadowing
-    let x = 5;
-    let x = x + 1;
+    let x: i32 = 5;
+    let x: i32 = x + 1;
     {
-        let x = x * 2;
+        let x: i32 = x * 2;
         println!("The value of x in the inner scope is: {x}");
     }
 
