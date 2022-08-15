@@ -17,6 +17,11 @@ fn main() {
     v.push(2);
     v.push(3);
 
+    match v.get(0) {
+        Some(value) => println!("The value at index 0 is: {value}"),
+        None => println!("Invalid index"),
+    };
+
     println!("{v:?}");
 
     // indexing items
